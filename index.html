@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - ณัฐพงษ์ เกิดเปรมเวช</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #e8f5e9;
+            /* พื้นหลังสีเขียวอ่อน */
+            margin: 0;
+            padding: 0;
+            color: #2e3e2e;
+            /* ตัวหนังสือเข้มหน่อย */
+        }
+
+        .container {
+            width: 900px;
+            max-width: 95%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 3px solid #66bb6a;
+            /* สีเขียวเข้ม */
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .name {
+            font-size: 2em;
+            font-weight: 700;
+            color: #388e3c;
+            /* สีเขียวเข้ม */
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #2e3e2e;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #388e3c;
+            /* สีเขียวเข้ม */
+            border-bottom: 1px solid #66bb6a;
+            /* สีเขียวอ่อน */
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left,
+        .right {
+            width: 48%;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact li {
+            margin-bottom: 5px;
+        }
+
+        .education,
+        .experience,
+        .hobby,
+        .activity {
+            list-style: none;
+            padding: 0;
+        }
+
+        .divider {
+            border-left: 2px dashed #66bb6a;
+            /* สีเขียวอ่อน */
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/120" alt="Profile">
+            </div>
+            <div>
+                <div class="name">ณัฐพงษ์ เกิดเปรมเวช</div>
+                <div class="subtitle">Resume</div>
+            </div>
+        </div>
+
+        <div class="flex" style="position: relative;">
+            <div class="left">
+                <div class="section">
+                    <h2>Profile</h2>
+                    <p>ใส่ประวัติส่วนตัวตรงนี้</p>
+                </div>
+
+                <div class="section">
+                    <h2>Contact</h2>
+                    <ul class="contact">
+                        <li>📞 099-396-2917</li>
+                        <li>🏠 96/3 อ.บ้านหนองบึง</li>
+                        <li>✉️ nattaphong.kerdp@outlook.com</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Education</h2>
+                    <ul class="education">
+                        <li>มัธยมต้น: </li>
+                        <li>มัธยมปลาย: </li>
+                        <li>ปริญญาตรี: </li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Activity</h2>
+                    <ul class="activity">
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="right">
+                <div class="section">
+                    <h2>Experience</h2>
+                    <ul class="experience">
+                        <li>2565 - ฝึกงานที่ 7-11 / เป็น Cashier</li>
+                        <li>2566 - รับจ้างถ่ายรูป / รับจ้างผ่านทาง Online</li>
+                        <li>2568 - ศึกษานายที่บริษัท อนุศรี / ศึกษางานด้านการจัดการฐานข้อมูล</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Hobby</h2>
+                    <ul class="hobby">
+                        <li>Programming</li>
+                        <li>Drawing / Designing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
